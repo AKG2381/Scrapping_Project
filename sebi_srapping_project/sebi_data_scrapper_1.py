@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from requests.adapters import Retry, HTTPAdapter
-payload=payload = {
+payload = {
     'currdate': '',
     'loginflag': '0',
     'searchValue': '',
@@ -28,7 +28,6 @@ headers = {
     "Accept-Language": "en-US,en;q=0.9",
     "Cache-Control": "max-age=0",
     "Connection": "keep-alive",
-    "Content-Type": "application/x-www-form-urlencoded",
     "Host": "www.sebi.gov.in",
     "Origin": "https://www.sebi.gov.in",
     "Referer": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doPmr=yes",
