@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from requests.adapters import Retry, HTTPAdapter
-payload=payload = {
+payload = {
     'currdate': '',
     'loginflag': '0',
     'searchValue': '',
